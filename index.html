@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Recursion from JSON</title>
+</head>
+
+<body style="text-align: center;">
+    <div class="container">
+        <select name="" id="languages" hidden>
+            <option value="EN"> EN </option>
+            <option value="AR"> AR </option>
+        </select>
+
+        <div class="dropdown__container">
+
+            <div style="position:relative;">
+                <label class="trigger dropdown--button">Choose language
+                    <span class="caret">▼</span>
+
+                </label>
+                <ul class="dropdown select--dropdown">
+                    <li class="active"><label for="dropdown--currency-trigger">Language</label></li>
+                    <li><label>EN</label></li>
+                    <li><label>AR</label></li>
+                </ul>
+                <div class="box">
+
+                    <select name="" id="select" hidden>
+                        <option value="Language">Language</option>
+                        <option value="EN">EN</option>
+                        <option value="AR">AR</option>
+
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            <header id="header">
+                <h1 data-lang="hello">Hello All.</h1>
+            </header>
+
+            <section>
+                <p data-lang="paragraph">
+                    Hello every body, we are so glad to serve you.
+                </p>
+            </section>
+
+            <section>
+                <p data-lang="en">
+                    English
+                </p>
+                <p data-lang="ar">
+                    Arabic
+                </p>
+            </section>
+        </div>
+
+    </div>
+    <script src="recurstion.js"></script>
+
+</body>
+
+</html>
