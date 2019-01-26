@@ -1,0 +1,10 @@
+{
+    "hello": "Hello All.",
+    "nestedOne": {
+        "paragraph": " Hello every body, we are so glad to serve you.",
+        "languages": {
+            "en": "English",
+            "ar": "Arabic"
+        }
+    }
+}
